@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TeamCard from "../components/TeamCard";
 import { teamAdministrative, teamSenior } from "./utils/constants";
-import { group } from "../assets/image";
+import { Faculty, group } from "../assets/image";
 
 const Team = () => {
   const [activeTab, setActiveTab] = useState("administrative"); // default tab
@@ -27,8 +27,21 @@ const Team = () => {
         </p>
       </div>
 
+      {/* Faculty Advisor Section */}
+      <div className="relative z-10 flex flex-col items-center mt-10 text-center">
+        <img
+          src={Faculty}
+          alt="Faculty Advisor"
+          className="w-40 h-40 object-cover rounded-full border-4 border-cyan-400 shadow-xl"
+        />
+        <h1 className="mt-4 text-2xl font-bold text-white">
+          Prof. Amit Kumar Srivastava
+        </h1>
+        <p className="text-lg text-gray-300">Faculty Advisor, SCEE - DTU</p>
+      </div>
+
       {/* Tabs */}
-      <div className="relative z-10 flex gap-6 mt-6">
+      <div className="relative z-10 flex gap-6 mt-12">
         <button
           onClick={() => setActiveTab("administrative")}
           className={`px-6 py-2 rounded-full text-lg font-semibold transition-all duration-300 ${

@@ -48,6 +48,7 @@ import secelogo from "./sceelogo.png";
 import DTU from "./dtu.jpg";
 import Plan from "./Plan.png";
 import Aim from "./Aim.webp";
+import Faculty from "./Faculty.jpg"
 
 // Export in alphabetical order
 export {
@@ -94,4 +95,5 @@ export {
   AarambhInvictus3,
   AarambhInvictus4,
   Aim,
+  Faculty
 };
