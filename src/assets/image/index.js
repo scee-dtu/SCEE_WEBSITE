@@ -19,7 +19,7 @@ import Madhav from "./Madhav.jpg";
 import Naman from "./Naman.png";
 import Priyam from "./priyam_simalti.jpg";
 import Ritvik from "./Ritvik.jpg";
-import Sahil from "./Sahil.jpg";
+import Sahil from "./sahil.jpg";
 import Salman from "./Salman.jpg";
 import Samarbir from "./Samarbir.jpg";
 import Shivang from "./Shivang.png";
